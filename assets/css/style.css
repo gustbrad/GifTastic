@@ -1,0 +1,62 @@
+.jumbotron{
+    background: blue;
+   color: white; 
+}
+
+.main{
+    background-color: gray;
+    color: white;
+
+} 
+#new-topic{
+  color: black;
+}
+
+
+#gifInput{
+  float: right;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  display: inline-block;
+}
+
+
+#add {
+
+  /* Box-model */
+  width: auto;
+  height: 40px;
+  
+  background-color: blue;
+  color: white;
+
+  /* Typography */
+  text-align: center;
+}
+  
+  #buttons, .category-btn {
+
+     /* Box-model */
+     width: auto;
+     height: 40px;
+     
+     background-color: blue;
+     color: white;
+ 
+     float: left;
+ 
+     /* Typography */
+     text-align: center;
+  }
+
+
+
+
+
+
+
+
